@@ -19,6 +19,8 @@ public final class LinkedQueue<E> implements Queue<E> {
 
     @Override
     public E dequeue() {
+        this.disallowEmpty();
+
         E first = list.getFirst();
         list.removeFirst();
         return first;
@@ -26,6 +28,8 @@ public final class LinkedQueue<E> implements Queue<E> {
 
     @Override
     public E peek() {
+        this.disallowEmpty();
+
         return list.getFirst();
     }
 
@@ -39,7 +43,7 @@ public final class LinkedQueue<E> implements Queue<E> {
      */
     private void disallowEmpty() {
         if (list.size() == 0) {
-            throw new EmptyException("linked list has no elements");
+            throw new EmptyException("queue is empty");
         }
     }
 
