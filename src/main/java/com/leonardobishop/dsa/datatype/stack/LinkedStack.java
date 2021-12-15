@@ -8,7 +8,7 @@ import com.leonardobishop.dsa.datatype.linkedlist.LinkedList;
  * A linked list backed stack.
  * @param <E> type
  */
-public class LinkedStack<E> implements Stack<E> {
+public final class LinkedStack<E> implements Stack<E> {
 
     private final LinkedList<E> list = new DoublyLinkedList<>();
 

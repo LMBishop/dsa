@@ -6,7 +6,7 @@ import com.leonardobishop.dsa.datatype.exception.OutOfRangeException;
 /**
  * A non-circular doubly linked list.
  */
-public class DoublyLinkedList<E> implements LinkedList<E> {
+public final class DoublyLinkedList<E> implements LinkedList<E> {
 
     private int size;
     private Node<E> first;

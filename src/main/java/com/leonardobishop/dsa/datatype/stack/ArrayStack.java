@@ -11,7 +11,7 @@ import java.lang.reflect.Array;
  * A array backed stack.
  * @param <E> type
  */
-public class ArrayStack<E> implements Stack<E> {
+public final class ArrayStack<E> implements Stack<E> {
 
     private final E[] array;
     private final int capacity;
