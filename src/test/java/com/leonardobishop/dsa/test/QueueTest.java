@@ -5,13 +5,11 @@ import com.leonardobishop.dsa.datatype.exception.FullException;
 import com.leonardobishop.dsa.datatype.queue.ArrayQueue;
 import com.leonardobishop.dsa.datatype.queue.LinkedQueue;
 import com.leonardobishop.dsa.datatype.queue.Queue;
-import com.leonardobishop.dsa.datatype.stack.ArrayStack;
-import com.leonardobishop.dsa.datatype.stack.LinkedStack;
-import com.leonardobishop.dsa.datatype.stack.Stack;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @DisplayName("Queue implementation test")
 public class QueueTest {

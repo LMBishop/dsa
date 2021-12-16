@@ -2,10 +2,6 @@ package com.leonardobishop.dsa.datatype.stack;
 
 import com.leonardobishop.dsa.datatype.exception.EmptyException;
 import com.leonardobishop.dsa.datatype.exception.FullException;
-import com.leonardobishop.dsa.datatype.linkedlist.DoublyLinkedList;
-import com.leonardobishop.dsa.datatype.linkedlist.LinkedList;
-
-import java.lang.reflect.Array;
 
 /**
  * A array backed stack.

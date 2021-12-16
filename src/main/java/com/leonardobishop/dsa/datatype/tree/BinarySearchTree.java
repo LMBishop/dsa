@@ -1,13 +1,12 @@
 package com.leonardobishop.dsa.datatype.tree;
 
 import com.leonardobishop.dsa.datatype.exception.DuplicateElementException;
-import com.leonardobishop.dsa.datatype.exception.ElementDoesNotExistException;
 
 /**
  * A binary search tree.
  * @param <E>
  */
-public class BinarySearchTree<E extends Comparable<? super E>> implements BinaryTree<E> {
+public final class BinarySearchTree<E extends Comparable<? super E>> implements BinaryTree<E> {
 
     private BinaryNode<E> root;
     private int size;

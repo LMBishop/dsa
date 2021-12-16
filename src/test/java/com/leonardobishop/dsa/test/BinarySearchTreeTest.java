@@ -1,6 +1,5 @@
 package com.leonardobishop.dsa.test;
 
-import com.leonardobishop.dsa.datatype.exception.OutOfRangeException;
 import com.leonardobishop.dsa.datatype.tree.BinarySearchTree;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
